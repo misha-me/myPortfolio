@@ -29,9 +29,6 @@
   z-index: 6;
 }
 header {
-  display: flex;
-  list-style: none;
-
   font-size: 48px;
   font-family: "Impact";
   color: rgb(0, 0, 0);
@@ -42,6 +39,10 @@ header {
   left: 270px;
   top: 19.227px;
   z-index: 5;
+}
+header ul {
+  list-style: none;
+  display: flex;
 }
 .WELCOME {
   font-size: 72px;
